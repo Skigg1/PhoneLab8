@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/mainLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textStudentInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ФИО: Соловьев Александр Русланович\nГруппа: ИСиТ-333902у"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:padding="12dp"
+            android:background="#E1BEE7"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textRequiredTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Обязательные предметы:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Русский язык:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editRus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Математика:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editMath"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:id="@+id/textOptionalTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Дополнительные предметы:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Информатика:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editInform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Обществознание:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editSocial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Химия:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editChemistry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Физика:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editPhysics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Английский:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editEng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="География:"
+            android:layout_marginBottom="4dp" />
+        <EditText
+            android:id="@+id/editGeo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:hint="Введите баллы (0-100)"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="24dp">
+
+            <Button
+                android:id="@+id/buttonClear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Очистить"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonCalculate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Рассчитать"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Результаты появятся здесь"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#F5F5F5"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textError"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ошибка сети"
+            android:textSize="14sp"
+            android:textColor="#FF0000"
+            android:gravity="center"
+            android:padding="8dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

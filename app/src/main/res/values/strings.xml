@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Калькулятор ЕГЭ</string>
+
+    <!-- Заголовки полей ввода -->
+    <string name="student_info">ФИО: Соловьев Александр Русланович\nГруппа: ИСиТ-333902у</string>
+    <string name="rus_label">Русский язык</string>
+    <string name="math_label">Математика</string>
+    <string name="inform_label">Информатика</string>
+    <string name="social_label">Обществознание</string>
+    <string name="chemistry_label">Химия</string>
+    <string name="physics_label">Физика</string>
+    <string name="eng_label">Английский язык</string>
+    <string name="geo_label">География</string>
+
+    <!-- Кнопки и сообщения -->
+    <string name="calculate_button">Рассчитать</string>
+    <string name="clear_button">Очистить</string>
+    <string name="hint_enter_score">Введите баллы (0-100)</string>
+    <string name="required_field_error">Это поле обязательно для заполнения</string>
+    <string name="score_range_error">Баллы должны быть от 0 до 100</string>
+    <string name="loading">Загрузка...</string>
+    <string name="no_results">Нет подходящих направлений</string>
+    <string name="network_error">Ошибка сети. Проверьте соединение</string>
+    <string name="server_error">Ошибка сервера. Попробуйте позже</string>
+    <string name="results_title">Подходящие направления:</string>
+</resources>

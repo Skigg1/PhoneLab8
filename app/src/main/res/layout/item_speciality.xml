@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewSpecialityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название специальности"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewSpecialityScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Проходной балл: 240"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewSubjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Предметы:\nМатематика: 39\nРусский: 40"
+            android:textSize="12sp"
+            android:textColor="@color/purple_700" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
