@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="error_color">#FFB00020</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="success_color">#FF4CAF50</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Калькулятор ЕГЭ</string>
+    <string name="calculate_button">Рассчитать</string>
+    <string name="chemistry_label">Химия</string>
+    <string name="clear_button">Очистить</string>
+    <string name="eng_label">Английский язык</string>
+    <string name="geo_label">География</string>
+    <string name="hint_enter_score">Введите баллы (0-100)</string>
+    <string name="inform_label">Информатика</string>
+    <string name="loading">Загрузка...</string>
+    <string name="math_label">Математика</string>
+    <string name="network_error">Ошибка сети. Проверьте соединение</string>
+    <string name="no_results">Нет подходящих направлений</string>
+    <string name="physics_label">Физика</string>
+    <string name="required_field_error">Это поле обязательно для заполнения</string>
+    <string name="results_title">Подходящие направления:</string>
+    <string name="rus_label">Русский язык</string>
+    <string name="score_range_error">Баллы должны быть от 0 до 100</string>
+    <string name="server_error">Ошибка сервера. Попробуйте позже</string>
+    <string name="social_label">Обществознание</string>
+    <string name="student_info">ФИО: Соловьев Александр Русланович\nГруппа: ИСиТ-333902у</string>
+    <style name="Theme.Lab8" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
